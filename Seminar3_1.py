@@ -3,5 +3,10 @@
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
 import random
-a = [random.randint(-5,4) for _ in range(20)]
-print (a)
+a = [random.randint(-5,5) for _ in range(10)]
+print(a)
+sum=0
+for i in range (len(a)+1):
+    if i%2!=0:
+        sum=sum+a[i]
+print (sum)
