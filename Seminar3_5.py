@@ -7,7 +7,7 @@
 
 
 import math
-b = abs(int(input('Введите число заначений:')))
+b = abs(int(input('Введите число:')))
 kod = []
 for i in range(-b,b+1):
     kod.append(i)
